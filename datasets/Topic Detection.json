@@ -1,0 +1,53 @@
+{ "groups": [
+                            {
+                                "name": "payment",
+                                "words": [
+                                    "overpriced",
+                                    "bill",
+                                    "expensive",
+                                    "price",
+                                    "payment"
+                                ]
+                            },
+                            {
+                                "name": "staff/doctor maners",
+                                "words": [
+                                    "unprofessional",
+                                    "arrogant",
+                                    "rude",
+                                    "uncaring",
+                                    "lazy"
+                                ]
+                            },
+                            {
+                                "name": "Errors",
+                                "words": [
+                                    "misdiagnosis",
+                                    "mistake",
+                                    "negligence",
+                                    "recklessness",
+                                    "wrong"
+                                ]
+                            },
+                            {
+                                "name": "Waiting/Appointment",
+                                "words": [
+                                    "wait",
+                                    "late",
+                                    "long",
+                                    "hours",
+                                    "time"
+                                ]
+                            },
+                            {
+                                "name": "Generic",
+                                "words": [
+                                    "doctor",
+                                    "hospital",
+                                    "illness",
+                                    "clinic",
+                                    "nurse"
+                                ]
+                            }
+                        ]
+}

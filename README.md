@@ -1,1 +1,36 @@
-Abstract — In this paper we present a set of four user studies aimed at exploring the visual design space of what we call keyword summaries: lists of words with associated quantitative values used to help people derive an intuition of what information a given document collection (or part of it) may contain. We seek to systematically study how different visual representations may affect people’s performance in extracting information out of keyword summaries. To this purpose, we first create a design space of possible visual representations and compare the possible solutions in this design space through a variety of representative tasks and performance metrics. Other researchers have, in the past, studied some aspects of effectiveness with word clouds, however, the existing literature is somewhat scattered and do not seem to address the problem in a sufficiently systematic and holistic manner. The results of our studies showed a strong dependency on the tasks users are performing. In this paper we present details of our methodology, the results, as well as, guidelines on how to design effective keyword summaries based in our discoveries.
+# User Study on Keywords Summaries (a.k.a. Word Clouds)
+
+**Goal**: Test effectiveness of alternate visual representations for keyword summaries.
+
+**Keyword Summaries**: A set of words or phrases extracted from text collections often with the goal of representing the overall content of the text. Usually associated to a importance metric like frequency.
+
+```[Word + Value]```
+
+## Design space
+The design space is divided in 2 basic elements:
+
+* **Layout**: How the words are arranged on the screen
+* **Mark**: How each word and its value is represented visually
+	* *Word as value mark*: In this case the value of each word is mapped to features of the word itself like color and size.
+	* *Additional mark for value*:  In this case the value of each mark is mapped to features of an additional mark associated with each word. E.g circle area, bar length
+
+## Layouts
+
+![Layouts](./Images/Layouts.png)
+
+
+## Marks
+
+![Layouts](./Images/Marks.png)
+
+# Gallery
+
+## Column
+![Layouts](./Images/GalleryColumn.png)
+
+
+## Row
+![Layouts](./Images/GalleryRow.png)
+
+## Spatial
+![Layouts](./Images/GallerySpatial.png)
